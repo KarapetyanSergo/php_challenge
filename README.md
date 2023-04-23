@@ -4,7 +4,7 @@ GET STARTED
 
 2) Run the "composet install" command.
 
-3) Copy env_example file to .env file and change configs for your local environment.
+3) Copy config/env_example.php file to config/env.php file and change configs for your local environment.
 
 4) Run the database migrations.
 
