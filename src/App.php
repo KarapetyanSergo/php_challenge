@@ -17,7 +17,7 @@ class App
     
             if (!$bindings) throw new ErrorException("Route does not exist");
             
-            if ($bindings['middleware']) {
+            if (isset($bindings['middleware'])) {
                 $middleware = new $bindings['middleware']();
                 if (!$middleware->check()) throw new ErrorException($middleware->getMessage());;
             };
